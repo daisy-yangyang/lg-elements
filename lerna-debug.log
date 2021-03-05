@@ -1,0 +1,10 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/daisy-yangyang/lg-element.git/': Failed to connect to github.com port 443: Timed out
+17 error error: Could not fetch origin
+17 error Fetching origin
+17 error     at makeError (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_execa@5.0.0@execa\lib\error.js:59:11)
+17 error     at Function.module.exports.sync (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_execa@5.0.0@execa\index.js:186:17)
+17 error     at Object.execSync (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_@lerna_child-process@4.0.0@@lerna\child-process\index.js:39:16)
+17 error     at updateRemote (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:34:16)
+17 error     at isBehindUpstream (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_@lerna_version@4.0.0@@lerna\version\lib\is-behind-upstream.js:16:3)
+17 error     at VersionCommand.initialize (D:\javaScript\03-04-study-materials\test\lg-element\node_modules\_@lerna_version@4.0.0@@lerna\version\index.js:153:9)
